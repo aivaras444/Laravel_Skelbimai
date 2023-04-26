@@ -6,7 +6,7 @@
                 {{$skelbimas['title']}}
             </div>
             <div class="w-full sm:max-w-lg mt-6 px-6 py-4 bg-white dark:bg-gray-800 shadow-md overflow-hidden sm:rounded-lg">
-                <img src="{{ url('/images/'.$skelbimas['image']) }}" style="width: 100px;">
+                <img src="{{ url('/images/'.$skelbimas['image']) }}" style="width: 200px;">
             </div>
             <div class="w-full sm:max-w-lg mt-6 px-6 py-4 bg-white dark:bg-gray-800 shadow-md overflow-hidden sm:rounded-lg">
                 Aprasymas: {{$skelbimas['dscription']}}
