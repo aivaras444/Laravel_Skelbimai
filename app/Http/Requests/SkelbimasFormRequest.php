@@ -23,7 +23,7 @@ class SkelbimasFormRequest extends FormRequest
     {
         return [
             'title' => 'required',
-            'image' => ['image', 'mimes:jpeg,png,jpg,gif,svg', 'max:2048'],
+            'image' => ['max:2048'],
             'dscription' => 'required',
             'price' => ['required', 'integer'],
         ];
